@@ -1,0 +1,122 @@
+
+
+#kontener
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#prostokat1
+{
+    width: 1000px;
+    margin-top: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+
+}
+#logo
+{
+    float: left;
+    font-size: 44px;
+    font-weight: 500;
+    color: #333333;
+    border-bottom: 2px #333333 solid;   
+}
+#tel
+{
+    float: right;
+    font-size: 45px;
+     color: #333333;
+}
+.kwadraty
+{
+    height: 500px;
+    width: 500px;
+    float: left;
+    font-size: 40px;
+    text-align: center;
+    color:#823898;
+    letter-spacing: 1px;
+
+}
+.mkwadrat1
+{
+    width: 230px;
+    height: 230px;
+    background-color: #eeeeee;
+    float: left;
+    margin: 10px;
+    border-radius: 30px;
+}
+.mkwadrat1:hover
+{
+    background-color: #dddddd;
+}
+.mkwadrat2
+{
+    width: 230px;
+    height: 230px;
+    background-color: #eeeeee;
+    float: left;
+    margin: 10px;
+    border-radius: 30px;
+
+}
+.mkwadrat2:hover
+{
+    background-color: #dddddd;
+}
+img
+{
+    width: 480px;
+    margin: 10px;
+    border-radius: 30px;
+}
+#promocja
+{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: #333333;
+    text-shadow: 5px 5px 10px black;
+}
+#prostokat2
+{
+    text-align: center;
+    font-size: 14px;
+    background-color: #823898;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#podloga
+{
+    background-color: #333333;
+    color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+}
+.logolink
+{
+    text-decoration: none;
+    color: #333333;
+}
+.link
+{
+    text-decoration: none;
+    color:  #823898;
+}
+.ikona
+{
+    margin-top: 50px; 
+    font-size: 70px;
+    margin-bottom: -50px;
+}
+
