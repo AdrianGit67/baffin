@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="stylekontakt.css" type="text/css">
+    <link rel="stylesheet" href="css/fontello.css" type="text/css">
+
+</head>
+<body>
+
+    <div id = "kontener">
+        <div id = "logo">
+            <a href="index.html" class="logolink">
+            <div id="koperta"><i class="icon-mail-alt"></i></div>
+            <div style = "clear: both;"></div>
+            <div id="napis"><span style="color:#823898;">K</span>ONTAKT</div></a>
+        </div>
+        <div id="flexbox">
+            <div id = "kinformacje">
+                <div class="info"><span style="font-weight: 1000;">Biuro Rachunkowe <span style="color:#823898;">BAFFIN</span></span>, Warszawa Ursynów
+                    czynne od poniedziałku do piątku w godzinach 8:00 - 18:00
+                </div>
+                <div class="info">
+                    <span style="font-weight: 1000;">Adres: </span> <br> 02-792 Warszawa <br>
+                    ul. Lanciego 14 lok. 118
+                </div>
+                <div class="info">
+                    <span style="font-weight: 1000;">Skontaktuj się z nami!</span> <br>
+                    <a href="kontakt@biurorachunkowewarszawa.com.pl">kontakt@biurorachunkowewarszawa.com.pl</a> <br>
+                    Tel. 730 667 887
+
+                </div>
+                <div id="zdjecie">
+                    <img src="zdjeciekontakt.png">
+                </div>
+            </div>
+            <div id="formularz">
+                <div id="fk">
+                   <span style="color: #823898;"> FORMULARZ </span> KONTAKTOWY
+                </div>
+                
+                <form>
+                    <span class="doinputa"><span style="color: #823898;">I</span>mię i <span style="color: #823898;">N</span>azwisko: <br> 
+                    <input type="text" name="imienazwisko" id="imienazwisko" maxlength="20" min="5"> <br> <br>
+                    <span class="doinputa"><span style="color: #823898;">E</span>-mail: </span> <br>
+                    <input type="email" name="mail" id="mail"> <br> <br>
+                    <span class="doinputa"><span style="color: #823898;">T</span>elefon: </span> <br>
+                    <input type="tel" name="tel" id="tel"> <br> <br>
+                    <span class="doinputa"><span style="color: #823898;">T</span>emat: </span> <br>
+                    <input type="text" name="Temat" id="temat" maxlength="30"> <br> <br>
+                    <span class="doinputa"><span style="color: #823898;">W</span>iadomość: </span> <br>
+                    <input type="text" name="wiad" id="wiad" maxlength="200" style="height: 60px;">
+                    <div id="wyslij"> <input type="button" name="wyslij" id="wbutton"  value="Wyślij"></div>
+                </form>
+            </div>
+        </div>
+        <div id="podloga">Biuro Rachunkowe Warszawa &copy; <span id="rok"></span>. Wszystkie prawa zastrzeżone.</div>
+    </div> 
+    <script src="rok.js"></script>
+    
+</body>
+</html>

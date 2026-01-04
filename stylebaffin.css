@@ -1,0 +1,143 @@
+
+#kontener
+{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+} 
+#logo
+{
+    font-size: 44px;
+    color: #333333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+#napis
+{
+    border-bottom: #333333 solid 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+img
+{
+    width: 660px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 5px;
+}
+ul 
+{
+    width: 240px;
+    font-size: 20px;
+    border: #333333 dashed 1px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+li
+{
+    padding: 10px;
+}
+li::marker
+{
+    color: #823898;
+    font-size: 25px;
+}
+#tytul
+{
+    width: 360px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 300px;
+    background-color: #eeeeee;
+    border-radius: 30px;
+    padding: 10px;
+}
+#kwalifikacje
+{
+    margin-top: 15px;
+    font-size: 30px;
+    background-color: #eeeeee;
+    border-radius: 30px;
+    padding: 10px;
+}
+#zalety
+{
+    width: 340px;
+    font-size: 20px;
+    background-color: #eeeeee;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+#zalety:hover ,#tytul:hover, #zalozycielka:hover, #kwalifikacje:hover
+{
+    background-color: #dddddd;
+}
+#srodkowyblok
+{
+    display: flex;
+    gap: 10px;
+
+}
+#teczka
+{
+    color:#823898;
+    margin-right: 30px;
+    font-size: 70px;
+    margin-top: 10px;
+}
+.logolink
+{
+    text-decoration: none;
+    color: #333333;
+}
+#zalozycielka
+{
+    background-color: #eeeeee;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+#zdjcertyfikaty
+{
+    max-width: 300px;
+    border-radius: 30px;
+}
+#lbok
+{
+    width: 300px;
+}
+#zapraszamy
+{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+#srodek
+{
+    width: 400px;
+}
+#pbok
+{
+    width: 300px;
+    margin-left: 10px;
+
+}
+#podloga
+{
+    background-color: #333333;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+}
+#slajder img
+{
+    width: 300px;
+}
