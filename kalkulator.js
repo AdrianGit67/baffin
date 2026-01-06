@@ -105,5 +105,7 @@ function oblicz() {
         if(uOPrace.checked == true) pKwota += (lOsob*60);
         if(uCywilna.checked == true) pKwota += (lOsob*40);
     }
-    document.getElementById("liczba").innerHTML = pKwota + " zł";
+    var wynik = document.getElementById("liczba");
+    wynik.innerHTML = pKwota + "zł";
+    wynik.style.fontSize = "56px";
 }
