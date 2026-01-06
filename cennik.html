@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cennik i promocje</title>
+    <link rel="stylesheet" href="stylecennik.css">
+    <link rel="stylesheet" href="css/fontello.css" type="text/css">
+
+    
+</head>
+<body>
+    <main id="kontener">
+        <a href="index.html" class="logolink">
+            <header id="logo">
+            <div id="pieniadz"><i class="icon-money" ></i></div>
+            <div id="napis"><span style="color: #823898;">C</span>ENNIK I <span style="color: #823898;">P</span>ROMOCJE</div>
+        </header></a>
+        <div id="srodek">
+            <div id="lewybok">
+                <div id="cenazalezy">
+                </div>
+                <div id="kalkulator">
+                    <div id="tytulkalk"><span style="color: #823898; font-weight: 1000;">P</span>odaj dane potrzebne do obliczenia usługi</div>
+                        <div class="czesckalkulatora">
+                            <div class="tytul"><span style="color: #823898;">K</span>sięgowość</div>
+                            <div id="ksiegowosc-checkbox">
+                                <div class="tekst">Liczba dokumentów: <input type="number" min="1" max="60" id="ldokumentow" value="1"> <br></div>
+                                <div class="tekst">Ryczałt bez rozliczania VAT <input type="radio" name="ksiegowosc" id="rbrv" > <br></div>
+                                <div class="tekst">Ryczałt z rozliczaniem VAT <input type="radio" name="ksiegowosc" id="rzrv"> <br></div>
+                                <div class="tekst">KPiR bez rozliczania VAT <input type="radio" name="ksiegowosc" id="kbrv"> <br> </div>
+                                <div class="tekst">KPiR z rozliczaniem VAT <input type="radio" name="ksiegowosc" id="kzrv"> <br> </div>
+                                <div class="tekst">Pełna księgowość <input type="radio" name="ksiegowosc" id="pksiegowosc"> <br> </div>
+                                
+                            </div>
+                        </div>
+                        <div class="czesckalkulatora">
+                            <div class="tytul"><span style="color: #823898;">K</span>adry i Płace</div>
+                            <div class="tekst">Liczba zatrunionych osób: <input type="number" min="0" id="lludzi" value="0"> <br></div>
+                            <div class="tekst">Umowa o pracę <input type="radio" name="kadry" id="umowaoprace"> <br> </div>
+                            <div class="tekst">Umowa cywlinoprawna <input type="radio" name="kadry" id="umowacywilna"> <br></div>
+
+                        </div>
+                        <div class="czesckalkulatora">
+                            <div class="tytul"><span style="color: #823898;">R</span>ozliczenie roczne</div>
+                            <div class="tekst">Jak bedziesz rozliczać PIT roczny?<br>  </div>
+                            <div class="tekst"><span style="margin-right: 30px;">Indywidulanie: <span style="color: #823898;">100zł</span> </span>
+                                Wspólnie z małżonkiem: <span style="color: #823898;">200zł</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div id="prawybok">
+                <img src="kalkulator.png" >
+                <div id="obowiazki">
+                    <span style="color: #823898; font-weight: 1000;">D</span>o obowiązków biura w ramach powyższych cen należy:
+                    <ul>
+                        <li>sporządzanie deklaracji ZUS</li>
+                        <li>sporządzanie deklaracji JPK_V7, CIT-2, PIT-5 i PIT-4, PIT-28</li>
+                        <li>oraz inne usługi wybrane z cennika</li>
+                    </ul>
+                </div>
+                <div id="wynik"><button onclick="oblicz()" ><span style="color: #823898; font-weight: 700;">S</span>prawdz cenę usługi</button>
+                    <div id="liczba"></div>
+                </div>
+            </div>
+        </div>
+        <footer id="podloga">
+            Biuro Rachunkowe Warszawa &copy; <span id="rok"></span>. Wszystkie prawa zastrzeżone.
+        </footer>
+    </main>
+    <script src="rok.js"></script>
+    <script src="kalkulator.js"></script>
+</body>
+</html>

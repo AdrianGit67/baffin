@@ -1,0 +1,174 @@
+#kontener
+{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+} 
+#logo
+{
+    font-size: 44px;
+    color: #333333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+#napis
+{
+    border-bottom: #333333 solid 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#pieniadz
+{
+    color:#823898;
+    margin-right: 30px;
+    font-size: 70px;
+    margin-top: 10px;
+}
+.logolink
+{
+    text-decoration: none;
+    color: #333333;
+}
+#srodek
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#lewybok
+{
+    width: 600px;
+}
+#prawybok
+{
+    width: 400px;
+}
+img
+{
+    width: 400px;
+    border-radius: 30px;
+}
+#dlugitekst
+{
+    margin-top: 15px;
+    font-size: 25px;
+    background-color: #eeeeee;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+#obowiazki
+{
+    margin-top: 15px;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+}
+ul
+{
+    font-size: 20px;
+    border: #333333 dashed 1px;
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+li
+{
+    padding: 10px;
+}
+li::marker
+{
+    color: #823898;
+    font-size: 25px;
+}
+#tytulkalk
+{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    background-color: #eeeeee;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+#podloga
+{
+    background-color: #333333;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+}
+#rok
+{
+    color: #823898;
+}
+.czesckalkulatora
+{
+    background-color: #eeeeee;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.tytul
+{
+    font-size: 30px;
+    border-bottom: white solid 2px;
+    margin-bottom: 10px;
+}
+input[type="number"]
+{
+    width: 50px;
+    height: 18px;
+    border-radius: 5px;
+    border: #333333 solid 1px;
+    margin-left: 20px;
+    color: #823898;
+    font-size: 15px;
+}
+input[type="radio"]
+{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.tekst
+{
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #dddddd;
+    border-radius: 10px;
+}
+#wynik
+{
+    width: 360px;
+    height: 150px;
+    background-color: #eeeeee;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+#liczba
+{
+    margin-top: 30px;
+    font-size: 56px;
+}
+button
+{
+    font-size: 34px;
+    border: none;          
+    cursor: pointer;        
+}
+button:hover
+{
+    border-bottom: #823898 solid 1px;
+}
